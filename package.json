@@ -5,6 +5,7 @@
   "description": "This is a showcase for a server-side rendered blog using the powers of Astro, Typescript, & TailwindCSS.",
   "author": "Ethan G. (https://egxworld.net/)",
   "license": "MIT",
+  "private": true,
   "keywords": [
     "astro",
     "typescript",
