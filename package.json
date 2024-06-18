@@ -1,10 +1,10 @@
 {
-  "name": "astro-ssr-blog",
+  "name": "n00bdev",
   "type": "module",
   "version": "1.0.0",
-  "homepage": "https://astro-ssr-blog-ten.vercel.app",
-  "description": "This is a showcase for a server-side rendered blog using the powers of Astro, Typescript, & TailwindCSS.",
-  "author": "Ethan G. (https://egxworld.net/)",
+  "homepage": "https://n00bdev.vercel.app",
+  "description": "n00bdev is a server-side rendered blog using the powers of Astro, Typescript, & TailwindCSS.",
+  "author": "Ethan G. (https://egxworld.net)",
   "license": "MIT",
   "private": true,
   "keywords": [
