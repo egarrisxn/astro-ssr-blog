@@ -1,12 +1,12 @@
-# n00bdev
+# Astro SSR Blog
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/n00bdev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/astro-ssr-blog)
 
 ## Overview
 
-This is a showcase for a server-side rendered blog using the powers of Astro, Typescript, & TailwindCSS.
+n00bdev is a server-side rendered blog using the powers of Astro, Typescript, & TailwindCSS.
 
-![astro-ssr](https://github.com/egarrisxn/n00bdev/assets/126130230/13419e4f-0b63-49b3-b7e6-75bcf5beff5d)
+![astro-ssr](https://github.com/egarrisxn/astro-ssr-blog/assets/126130230/13419e4f-0b63-49b3-b7e6-75bcf5beff5d)
 
 ## Technologies
 
