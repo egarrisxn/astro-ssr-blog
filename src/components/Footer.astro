@@ -10,39 +10,48 @@ const tags: string[] = allBlogArticles.flatMap((article: any) => article.data.ta
 const uniqueTags: string[] = [...new Set(tags)];
 ---
 
-<footer class="bg-teal-900 text-white">
-  <div class="container mx-auto mt-10 max-w-screen-xl px-8">
+<footer class="bg-teal-800 text-white">
+  <div class="container mx-auto mt-10 max-w-screen-xl px-4 sm:px-8">
     <div class="grid grid-cols-1 gap-12 sm:grid-cols-3">
-      <div class="mt-10">
-        <h3 class="text-xl font-semibold mb-4">About Us</h3>
-        <p class="text-white text-sm">
-          n00b:dev is for you. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+     <section class="mt-10">
+        <h3 class="text-xl tracking-wide font-bold mb-4">n00b<span class="text-yellow-400">:dev</span></h3>
+        <p class="text-white text-sm max-w-72">
+          Our mission is to simplify the learning process and empower beginners to build their coding skills with confidence.
         </p>
-      </div>
-      <div class="mt-10">
-        <h3 class="text-xl font-semibold mb-4">Tags</h3>
+      </section>
+       <section class="mt-5 sm:mt-10">
+        <h3 class="text-xl font-bold sm:font-semibold mb-4">Tags</h3>
         <ul class="text-white text-sm grid grid-cols-2">
           {uniqueTags.map(tag => (
             <li class="mb-2">
-              <a href={'/articles/tag/' + tag}>#{capitalize(tag)}</a>  
+              <a href={'/articles/tag/' + tag} class="hover:text-yellow-400">#{capitalize(tag)}</a>  
             </li>
           ))}
         </ul>
-      </div>
-      <div class="mt-10">
-        <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
-        <ul class="text-white text-sm">
+      </section>
+      <section class="mt-5 sm:mt-10">
+        <h3 class="text-xl font-bold sm:font-semibold mb-4">Contact</h3>
+        <ul class="text-white text-sm grid grid-cols-2">
           <li class="mb-2">
-            <a href="https://google.com">Email</a>
+            <a href="https://google.com" class="hover:text-yellow-400">Email</a>
           </li>
           <li class="mb-2">
-            <a href="https://x.com">Twitter</a>
+            <a href="https://github.com" class="hover:text-yellow-400">GitHub</a>
           </li>
           <li class="mb-2">
-            <a href="https://facebook.com">Facebook</a>
+            <a href="https://linkedin.com" class="hover:text-yellow-400">LinkedIn</a>
           </li>
           <li class="mb-2">
-            <a href="https://instagram.com">Instagram</a>
+            <a href="https://facebook.com" class="hover:text-yellow-400">Facebook</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://instagram.com" class="hover:text-yellow-400">Instagram</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://x.com" class="hover:text-yellow-400">X</a>
           </li>
         </ul>
+      </section>
+    </div>
+  </div>
 </footer>

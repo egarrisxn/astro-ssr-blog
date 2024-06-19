@@ -28,14 +28,10 @@ const searchResults = allBlogArticles.filter(article => {
 ---
 
 <MainLayout title="Search Results">
-  <a href="/articles" class="inline-block bg-gray-100 p-2 mb-5 hover:bg-teal-500 hover:text-white">Tips & Tricks</a>
-
+  <a href="/articles" class="inline-block bg-gray-100 p-2 mb-6 rounded-lg shadow-md hover:bg-teal-500 hover:text-white">Go Back</a>
   <SearchForm />
-
   <br>
-
   <h1 class="text-2xl pb-3 mt-6">Results For <strong>{query}</strong></h1>
-
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {searchResults.map(article => (
       <ArticleCard article={article} />
