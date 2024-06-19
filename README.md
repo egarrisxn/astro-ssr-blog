@@ -6,7 +6,7 @@
 
 Welcome to **n00bdev**, a cutting-edge, server-side rendered blog built with the powerful trio of **Astro**, **TypeScript**, and **TailwindCSS**. Designed with rookie developers in mind, n00bdev offers a smooth learning curve while incorporating modern web development best practices.
 
-![n00bdev](https://github.com/egarrisxn/n00bdev/assets/126130230/53cf572e-bc9b-49cf-ba71-8b70d229062c)
+![og-image](https://github.com/egarrisxn/n00bdev/assets/126130230/a346541a-0536-4ddc-81ac-0535cf9a2f04)
 
 ## Why n00bdev?
 
